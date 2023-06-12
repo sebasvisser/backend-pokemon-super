@@ -38,3 +38,14 @@ public class FirePokemon extends Pokemon {
         this.fireAttack = fireAttack;
     }
 }
+
+
+/* Laatste Bonus opdracht:
+public interface FireType {
+    void useFireAttack();
+    void gainFirePower();
+}
+
+Door er een interface ipv een klasse van te maken kunnen pokemons meerdere types zijn.
+Nadeel is wel dat je minder consequente code kunt krijgen. Minder hierarchisch en mogelijk minder overzichtelijk.
+ */

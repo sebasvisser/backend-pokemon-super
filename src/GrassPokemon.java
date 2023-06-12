@@ -38,3 +38,13 @@ public class GrassPokemon extends Pokemon {
         this.grassAttack = grassAttack;
     }
 }
+
+/* Laatste Bonus opdracht:
+public interface GrassType {
+    void useGrassAttack();
+    void gainGrassPower();
+}
+
+Door er een interface ipv een klasse van te maken kunnen pokemons meerdere types zijn.
+Nadeel is wel dat je minder consequente code kunt krijgen. Minder hierarchisch en mogelijk minder overzichtelijk.
+ */

@@ -38,3 +38,14 @@ public class WaterPokemon extends Pokemon {
         this.waterAttack = waterAttack;
     }
 }
+
+
+/* Laatste Bonus opdracht:
+public interface WaterType {
+    void useWaterAttack();
+    void gainWaterPower();
+}
+
+Door er een interface ipv een klasse van te maken kunnen pokemons meerdere types zijn.
+Nadeel is wel dat je minder consequente code kunt krijgen. Minder hierarchisch en mogelijk minder overzichtelijk.
+ */

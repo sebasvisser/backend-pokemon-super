@@ -29,4 +29,5 @@ public abstract class Pokemon {
 
     // This is the abstract method that all subclasses must implement
     public abstract void attack();
+
 }

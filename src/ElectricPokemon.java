@@ -38,3 +38,14 @@ public class ElectricPokemon extends Pokemon {
         this.electricAttack = electricAttack;
     }
 }
+
+
+/* Laatste Bonus opdracht:
+public interface ElectricType {
+    void useElectricAttack();
+    void gainElectricPower();
+}
+
+Door er een interface ipv een klasse van te maken kunnen pokemons meerdere types zijn.
+Nadeel is wel dat je minder consequente code kunt krijgen. Minder hierarchisch en mogelijk minder overzichtelijk.
+ */
